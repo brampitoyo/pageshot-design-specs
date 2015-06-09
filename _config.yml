@@ -1,11 +1,11 @@
 # Site settings
-name: Firefox Marketplace Style Guide
-title: Firefox Marketplace Style Guide
-email: tsmuse@mozilla.com
-description: "A styleguide and pattern library for the Firefox Marketplace"
+name: PageShot Design Specs
+title: PageShot Design Specs
+email: bramp@mozilla.com
+description: "A design specs for PageShot"
 # these need to be changed for each project
-baseurl: "/marketplace-style-guides" #this is the github project name WITHOUT the trailing /
-url: "https://pwalm.github.io"  #this the url of the GHPages account your project is hosted at
+baseurl: "/pageshot-design-specs" #this is the github project name WITHOUT the trailing /
+url: "https://brampitoyo.github.io"  #this the url of the GHPages account your project is hosted at
 
 # Build settings
 markdown: kramdown
