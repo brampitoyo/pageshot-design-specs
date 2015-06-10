@@ -1,0 +1,30 @@
+---
+layout: PageShotDesignSpecs
+multipage: false
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+  		
+			<h1>Recall Panel</h1>
+			
+		  <h3>Open Recall panel</h3>
+		  <p class="longText">Site is sorted descending by date added. Latest goes first.</p>
+			<img src="img/doorhanger-recall-open.gif"/>
+			
+		  <h3>Copy shot URL to clipboard</h3>
+		  <p class="longText">Not shown here: OS-level notification when link is copied to clipboard</p>
+			<img src="img/doorhanger-recall-copy-url.gif"/>
+			
+			<h3>Open shot</h3>
+			<img src="img/doorhanger-recall-open-shot.gif"/>
+
+		</div>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
