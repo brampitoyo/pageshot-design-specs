@@ -1,0 +1,27 @@
+---
+layout: PageShotDesignSpecs
+multipage: false
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+  		
+			<h1>Individual Shot Page: Thumbnails</h1>
+			
+			<img src="img/web-individual-thumbnails.png"/>
+			
+		  <h3>View, add and receive comments</h3>
+			<img src="img/web-individual-comment.gif"/>
+			
+			<h3>View thumbnail in context of full page</h3>
+			<img src="img/web-individual-full-page.gif"/>
+			
+		</div>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
