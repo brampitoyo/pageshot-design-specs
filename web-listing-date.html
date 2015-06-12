@@ -1,0 +1,30 @@
+---
+layout: PageShotDesignSpecs
+multipage: false
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+  		
+			<h1>Shot Listing Page: Sort by Date</h1>
+			
+		  <h3>Access shot listing page: sort by website</h3>
+      <p class="longText">If we can grab site name, show it. If we can’t, show its URL.</p>
+			<img src="img/web-listing-go-to-website.gif"/>
+			
+			<h3>View list of shots taken within a website</h3>
+      <p class="longText">If we can grab site name, show it. If we can’t, show its URL.</p>
+      <img src="img/web-listing-go-to-shot-within-website.gif"/>
+      
+      <h3>Go to individual shot page</h3>
+      <img src="img/web-listing-go-to-web-individual.gif"/>
+
+		</div>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
